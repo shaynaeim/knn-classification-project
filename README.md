@@ -43,15 +43,3 @@ The dataset used here is similar to those introduced in KNN lecture materials, m
 
 ---
 
-## 📊 Example Output
-
-```python
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import classification_report, confusion_matrix
-
-knn = KNeighborsClassifier(n_neighbors=5)
-knn.fit(X_train, y_train)
-pred = knn.predict(X_test)
-
-print(confusion_matrix(y_test, pred))
-print(classification_report(y_test, pred))
