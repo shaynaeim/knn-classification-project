@@ -12,9 +12,6 @@ This notebook was created as part of a machine learning exercise to:
 - Train a classifier on labeled data.
 - Evaluate model accuracy and visualize results.
 - Compare how different K values affect model performance.
-
-The dataset used here is similar to those introduced in KNN lecture materials, making it a practical continuation project.
-
 ---
 
 ## 🚀 Key Steps
